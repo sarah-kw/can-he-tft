@@ -1,6 +1,6 @@
 import React from "react";
 
-const matchRow = (props) => {
+const MatchRow = (props) => {
   return (
     <tr>
       <td>{props.timeStamp}</td>
@@ -11,4 +11,4 @@ const matchRow = (props) => {
   );
 };
 
-export default matchRow;
+export default MatchRow;
